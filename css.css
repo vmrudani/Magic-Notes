@@ -1,0 +1,119 @@
+html, body{
+  background: rgb(255,0,85);
+  background: linear-gradient(90deg, rgba(255,0,85,0.9727241238292192) 0%, rgba(0,124,255,0.9531162806919643) 100%);
+  background-image: url("./cool-background.png");
+  background-position:center;
+  background-repeat:repeat-y;
+  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
+}
+.btn {
+  position: relative;
+  left: 45%;
+  width: 9%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: white;
+    border: 2px solid #000000;
+    border-radius: 0.6em;
+    color: #000000;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+  .btn:hover {
+    color: rgb(255, 255, 255);
+    outline: 0;
+  }
+  
+  .first {
+    -webkit-transition: box-shadow 300ms ease-in-out, ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .first:hover {
+    box-shadow: 0 0 40px 40px #000000 inset;
+  }
+#maincard{
+    background-color: cadetblue;
+}
+
+
+
+  .mycard{
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.233);
+    backdrop-filter: blur(10px);
+    width: 60%;
+    left: 19%;
+    
+  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255,255,255,0.2);
+  }
+
+  .form-control{
+    backdrop-filter: blur(10px);
+  }
+
+  .container{
+    text-align: center;
+  }
+
+  .btnf{
+   
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #000000;
+    border-radius: 0.6em;
+    color: #000000;
+    cursor: pointer;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  
+  }
+
+  .btnf:hover{
+    color: rgb(255, 255, 255);
+    outline: 0;
+  }
+
+  .btnf {
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+  }
+  .btnf:hover {
+    box-shadow: 0 0 40px 40px #000000 inset;
+  }
+  i{
+      font-size: 22px;
+    width: 100%;
+  }
